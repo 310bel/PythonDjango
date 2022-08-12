@@ -40,7 +40,8 @@ INSTALLED_APPS = [
 
     'social_django',
 
-    'main'
+    'main',
+    'generator'
 ]
 
 MIDDLEWARE = [
