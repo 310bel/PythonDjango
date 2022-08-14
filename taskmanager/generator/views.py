@@ -1,7 +1,10 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+# from django.http import HttpResponse
 
 # Create your views here.
 
 def generator(request):
-    return render(request, "generator/home.html")
+    return render(request, "generator/home.html", {'password': 'gdfgfgfgfg'})
+
+def passw(request):
+    return render(request, "generator/pass.html", {'password': 'gdfgfgfgfg'})
