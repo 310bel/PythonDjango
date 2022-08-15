@@ -7,6 +7,9 @@ import random
 def generator(request):
     return render(request, "generator/home.html", {'password': 'gdfgfgfgfg'})
 
+def About(request):
+    return render(request, "generator/About.html")
+
 def passw(request):
 
     characters = list('qwertyuioplkjhgfdsazxcvbnm')
