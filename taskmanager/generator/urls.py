@@ -3,5 +3,5 @@ from generator import views
 
 urlpatterns = [
     path('generator',views.generator, name='generator'),
-    path('tgtgtgtgtggggg',views.passw, name='passw'),
+    path('passw',views.passw, name='passw'),
 ]
